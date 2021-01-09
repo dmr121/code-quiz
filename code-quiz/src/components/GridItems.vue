@@ -13,6 +13,9 @@
         alt="Man with sunglasse and a hat sitting on a beach"
         class="grid-img"
       />
+      <quote-box
+        quote="I drink to make other people more interesting."
+      ></quote-box>
       <img
         src="./../assets/images/woman_pouring_wine.png"
         alt="Woman pouring wine"
@@ -41,6 +44,16 @@
     </div>
   </div>
 </template>
+
+<script>
+import QuoteBox from "./QuoteBox.vue";
+
+export default {
+  components: {
+    "quote-box": QuoteBox,
+  },
+};
+</script>
 
 <style>
 .grid-img {
