@@ -28,6 +28,7 @@
         alt="Close-up of a black lab on a beach"
         class="grid-item object-fill"
       />
+      <qa-box></qa-box>
       <quote-box
         quote="Good people drink good beer."
         person="Hunter S. Thompson"
@@ -54,10 +55,12 @@
 
 <script>
 import QuoteBox from "./QuoteBox.vue";
+import QABox from "./QABox.vue";
 
 export default {
   components: {
     "quote-box": QuoteBox,
+    "qa-box": QABox,
   },
 };
 </script>

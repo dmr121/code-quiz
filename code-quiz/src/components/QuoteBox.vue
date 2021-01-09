@@ -1,5 +1,5 @@
 <template>
-  <div class="grid h-107 w-80">
+  <div class="grid grid-item">
     <div
       class="font-sans font-semibold leading-7 w-3/4 self-end pb-20"
       v-bind:class="{
