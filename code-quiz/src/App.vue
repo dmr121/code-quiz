@@ -1,6 +1,8 @@
 <template>
   <div class="flex justify-center">
-    <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 py-3">
+    <div
+      class="grid gap-y-10 gap-x-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 py-3 px-3"
+    >
       <img
         src="./assets/images/man_with_wine.png"
         alt="Man looking at camera behind some bottles of wine"
@@ -45,3 +47,11 @@ export default {
   name: "App",
 };
 </script>
+
+<style>
+img {
+  @apply w-80;
+  @apply h-107;
+  @apply object-fill;
+}
+</style>
