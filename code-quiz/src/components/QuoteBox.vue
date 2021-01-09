@@ -12,7 +12,7 @@
       <p class="text-bluegray pb-3">
         {{ upperCaseQuote }}
       </p>
-      <p class="text-burntorange text-sm">
+      <p class="text-burntorange text-xs">
         {{ upperCasePerson }}
       </p>
     </div>

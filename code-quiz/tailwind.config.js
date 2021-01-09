@@ -17,6 +17,9 @@ module.exports = {
           DEFAULT: '#c05340'
         }
       },
+      letterSpacing: {
+        evenwider: '.32em'
+      }
     },
   },
   variants: {

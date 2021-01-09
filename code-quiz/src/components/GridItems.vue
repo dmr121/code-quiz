@@ -28,7 +28,12 @@
         alt="Close-up of a black lab on a beach"
         class="grid-item object-fill"
       />
-      <qa-box></qa-box>
+      <qa-box
+        name="Tuna"
+        nickname="Young Buck"
+        q="For what would you be famous?"
+        a="My legendary puppy dog face and 1st rate begging skills"
+      ></qa-box>
       <quote-box
         quote="Good people drink good beer."
         person="Hunter S. Thompson"
