@@ -3,8 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      spacing: {
-        '107': '26rem'
+      height: {
+        107: '26rem'
       }
     }
   },
