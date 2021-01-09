@@ -46,5 +46,6 @@
 .grid-img {
   @apply w-80;
   @apply h-107;
+  @apply object-fill;
 }
 </style>

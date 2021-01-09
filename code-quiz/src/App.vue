@@ -1,14 +1,14 @@
 <template>
-  <grid-images></grid-images>
+  <grid-items></grid-items>
 </template>
 
 <script>
-import GridImages from "./components/GridImages.vue";
+import GridItems from "./components/GridItems.vue";
 
 export default {
   name: "App",
   components: {
-    "grid-images": GridImages,
+    "grid-items": GridItems,
   },
 };
 </script>
