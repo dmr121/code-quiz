@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div
-      class="grid gap-y-10 gap-x-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 py-3 px-3"
+      class="grid gap-y-10 gap-x-8 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 py-3 px-3"
     >
       <img
         src="./../assets/images/man_with_wine.png"
@@ -15,6 +15,8 @@
       />
       <quote-box
         quote="I drink to make other people more interesting."
+        person="Ernest Hemingway"
+        placement="right"
       ></quote-box>
       <img
         src="./../assets/images/woman_pouring_wine.png"
@@ -26,6 +28,11 @@
         alt="Close-up of a black lab on a beach"
         class="grid-img"
       />
+      <quote-box
+        quote="Good people drink good beer."
+        person="Hunter S. Thompson"
+        placement="left"
+      ></quote-box>
       <img
         src="./../assets/images/woman_sitting_in_chair.png"
         alt="Woman leaning on arm and smiling at camera"
