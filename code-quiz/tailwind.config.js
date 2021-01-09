@@ -8,12 +8,15 @@ module.exports = {
       },
       colors: {
         bluegray: {
-          DEFAULT: '#516a7a'
+          50: '#eef1f2',
+          300: '#628194',
+          DEFAULT: '#516a7a',
+          700: '#3c4457'
         },
         burntorange: {
           DEFAULT: '#c05340'
         }
-      }
+      },
     },
   },
   variants: {
