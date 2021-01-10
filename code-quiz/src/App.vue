@@ -1,11 +1,11 @@
 <template>
-  <div class="flex justify-center w-full">
+  <div class="flex justify-center">
     <div
       class="grid gap-y-10 gap-x-8 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 py-3 px-3"
     >
-      <heading title="Meet the team" class="col-span-3"></heading>
+      <heading title="Meet the team" class="md:col-span-2 lg:col-span-3"></heading>
       <grid-items></grid-items>
-      <footing class="col-span-3"></footing>
+      <footing class="md:col-span-2 lg:col-span-3"></footing>
     </div>
   </div>
 </template>
