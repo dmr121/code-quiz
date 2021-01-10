@@ -5,6 +5,7 @@
     >
       <heading title="Meet the team" class="col-span-3"></heading>
       <grid-items></grid-items>
+      <footing class="col-span-3"></footing>
     </div>
   </div>
 </template>
@@ -12,11 +13,13 @@
 <script>
 import GridItems from "./components/GridItems.vue";
 import Heading from "./components/Header.vue";
+import Footing from "./components/Footer.vue";
 
 export default {
   components: {
     "grid-items": GridItems,
     "heading": Heading,
+    "footing": Footing
   },
 };
 </script>
