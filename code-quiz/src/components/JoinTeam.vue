@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-item bg-bluegray-50">
+  <div class="relative grid grid-item bg-bluegray-50">
     <div
       class="self-center justify-self-center text-center font-semibold text-bluegray-700 font-sans pb-10"
     >
@@ -9,6 +9,9 @@
       <p class="text-base font-josefin tracking-evenwider px-4">
         {{ bottomtextUpperCase }}
       </p>
+    </div>
+    <div class="absolute -bottom-0 -right-10">
+      <p>hello</p>
     </div>
   </div>
 </template>
