@@ -3,6 +3,7 @@
     <div
       class="grid gap-y-10 gap-x-8 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 py-3 px-3"
     >
+      <heading class="col-span-3"></heading>
       <grid-items></grid-items>
     </div>
   </div>
@@ -10,11 +11,12 @@
 
 <script>
 import GridItems from "./components/GridItems.vue";
+import Heading from "./components/Header.vue";
 
 export default {
-  name: "App",
   components: {
     "grid-items": GridItems,
+    heading: Heading,
   },
 };
 </script>
