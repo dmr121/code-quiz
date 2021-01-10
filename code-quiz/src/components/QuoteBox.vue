@@ -10,10 +10,10 @@
         class="w-8 fill-current text-burntorange ml-1 mb-5"
       ></quote-vector>
       <p class="text-bluegray pb-3">
-        {{ upperCaseQuote }}
+        {{ quoteUpperCase }}
       </p>
       <p class="text-burntorange text-xs">
-        {{ upperCasePerson }}
+        {{ personUpperCase }}
       </p>
     </div>
   </div>
@@ -28,10 +28,10 @@ export default {
     "quote-vector": Quotes,
   },
   computed: {
-    upperCaseQuote() {
+    quoteUpperCase() {
       return this.quote.toUpperCase();
     },
-    upperCasePerson() {
+    personUpperCase() {
       return this.person.toUpperCase();
     },
   },

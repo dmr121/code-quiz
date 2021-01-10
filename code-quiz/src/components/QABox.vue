@@ -3,7 +3,7 @@
     <div class="grid bg-bluegray-300 opacity-95">
       <div class="font-sans text-center self-center justify-self-center">
         <p class="text-white tracking-widest font-semibold pb-2">
-          {{ upperCaseName }}
+          {{ nameUpperCase }}
         </p>
         <p
           class="text-bluegray-700 tracking-evenwider font-normal text-sm pb-6"
@@ -28,7 +28,7 @@
 export default {
   props: ["name", "nickname", "q", "a"],
   computed: {
-    upperCaseName() {
+    nameUpperCase() {
       return this.name.toUpperCase();
     },
   },

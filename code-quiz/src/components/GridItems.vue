@@ -54,6 +54,10 @@
         alt="Man holding a baby"
         class="grid-item object-fill"
       />
+      <join-team-box
+        toptext="Join Our Team"
+        bottomtext="Think you've got what it takes?"
+      ></join-team-box>
     </div>
   </div>
 </template>
@@ -61,11 +65,13 @@
 <script>
 import QuoteBox from "./QuoteBox.vue";
 import QABox from "./QABox.vue";
+import JoinTeam from "./JoinTeam.vue";
 
 export default {
   components: {
     "quote-box": QuoteBox,
     "qa-box": QABox,
+    "join-team-box": JoinTeam,
   },
 };
 </script>
