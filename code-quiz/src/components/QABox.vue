@@ -10,7 +10,7 @@
         >
           {{ nickname }}
         </p>
-        <div class="px-12 space-y-6 font-josefin">
+        <div class="px-10 space-y-6 font-josefin tracking-tighter text-sm">
           <p class="text-white">
             <span class="text-bluegray-700 font-bold">Q:</span>
             {{ q }}
