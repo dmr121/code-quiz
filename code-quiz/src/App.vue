@@ -5,7 +5,7 @@
     >
       <heading title="Meet the team" class="md:col-span-2 lg:col-span-3"></heading>
       <grid-items></grid-items>
-      <footing class="md:col-span-2 lg:col-span-3"></footing>
+      <footing class="md:col-span-2 lg:col-span-3 pt-6"></footing>
     </div>
   </div>
 </template>

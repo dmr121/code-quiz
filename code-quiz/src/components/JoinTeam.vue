@@ -10,15 +10,20 @@
         {{ bottomtextUpperCase }}
       </p>
     </div>
-    <div class="absolute -bottom-0 -right-10">
-      <p>hello</p>
+    <div class="absolute -bottom-16 -right-12">
+      <logo class="w-36 h-36"></logo>
     </div>
   </div>
 </template>
 
 <script>
+import Logo from "./Logo.vue";
+
 export default {
   props: ["toptext", "bottomtext"],
+  components: {
+    "logo": Logo,
+  },
   computed: {
     toptextUpperCase() {
       return this.toptext.toUpperCase();
