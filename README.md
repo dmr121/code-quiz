@@ -1,5 +1,12 @@
+# Site Deployment
+
+This project is currently hosted by [Netlfiy](https://www.netlify.com) and can be viewed [by clicking this link](https://awesome-euclid-cbf3f7.netlify.app)
+
+You can also follow the **Usage Instructions** below to run the dev version on your device.
+
 # Usage Instructions
-1. Navigate to the folder [code-quiz](https://github.com/dmr121/code-quiz/tree/master/code-quiz) 
+
+1. Navigate to the folder `code-quiz/` [code-quiz](https://github.com/dmr121/code-quiz/tree/master/code-quiz) 
 1. Run `npm install`
 1. Run `npm run dev` to start the server. View the project at http://localhost:3000/
 
