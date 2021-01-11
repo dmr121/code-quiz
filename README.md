@@ -1,4 +1,5 @@
 # Usage Instructions
+1. Navigate to the folder [code-quiz](https://github.com/dmr121/code-quiz/tree/master/code-quiz) 
 1. Run `npm install` in the root folder of this repository
 1. Run `npm run dev` to start the server. View the project at http://localhost:3000/
 
